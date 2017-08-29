@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        header{width: 100%;height: 40px;background-color: darkseagreen;}
+        .container{ height:200px;overflow:hidden;padding: 0 200px;}
+        .middle{width: 100%;height: 200px; background-color: deeppink;float:left;}
+        .left{ width: 200px;height: 200px;background-color: blue;float:left;margin-left:-100%;}
+        .right{width: 200px;height: 200px;background-color: darkorchid;float:left;margin-left:-200px}
+        footer{width: 100%; height: 30px;background-color: darkslategray;}
+
+        .left{ position: relative; left: -200px;}
+        .right{position: relative;right: -200px;}
+    </style>
+</head>
+<body>
+    <header><h4>Header内容区</h4></header>
+    <div class="container">
+        <div class="middle"><h4>中间弹性区</h4></div>
+        <div class="left"><h4>左边栏</h4></div>
+        <div class="right"><h4>右边栏</h4></div>
+    </div>
+    <footer><h4>Footer内容区</h4></footer>
+
+
+    <script>
+        //第一步:父元素的三栏必须先写中间盒子middle，中间盒子是有限被渲染的width:100%;
+        //第二步:left right左边盒子需要显示到与中间盒子同一层 就用到负margin left设置margin-left:-100%;这里百分比是以父盒子为基准 右边盒子设置margin-left：自身盒子的宽度
+        //第三步:此时左右两个盒子盖住了中间部分,padding:0 200px;这里用到的是padding 如果用到的是margin 就直接出效果了
+        //第四步:设置left right 绝对定位 .left{left:-200px;}.right{right:-200px;}
+    </script>
+</body>
+</html>

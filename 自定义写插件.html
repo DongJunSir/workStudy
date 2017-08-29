@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="./bootstrap/jquery-3.1.1.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <script src="./bootstrap/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row" style="border:1px solid #01AA60;margin-top:50px;padding:20px;">
+            <div class="col-lg-3" >
+                <ul class="list-group">
+                    <li class="list-group-item"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        //首先是渲染元素 渲染元素时首先因为数据是嵌套的树形结构、需要给数据排序
+        var _default = {}
+
+        _default.dataUrl = {
+            method: 'GET',
+            dataType: 'json',
+            cache: false
+        };
+
+        var options = {
+            data:getTree()
+        }
+
+
+        var Tree = function (options) {
+            this._init(options);
+        }
+
+        //将方法挂载到原型链上
+        Tree.prototype._loadLocalData = function(options,done){
+            done.resolve((typeof options.data === "string")?
+                JSON.parse(options.data):$.extend(true,[],options.data)
+            );
+        }
+
+        Tree.prototype._loadRemoteData = function(options,done){
+            $.ajax($.extend(true, {}, _default.dataUrl, options.dataUrl))
+                .done(function(data){
+                    done.resolve(data);
+                })
+                .fail(function(xhr,status,error){
+                    done.reject(error);
+                })
+        }
+
+        Tree.prototype._load = function(options){
+            var done = new $.Deferred();
+            if(options.data){
+                this._loadLocalData(options,done);
+            }else if(options.dataUrl){
+                this._loadRemoteData(options,done);
+            }
+            return done;
+        }
+
+        Tree.prototype._setNodes = function(node,level){
+            this._nodes = {};
+            return $.when.apply(this, this._setInitialState(node, level))
+                .done($.proxy(function () {
+                    this._orderedNodes = this._sortNodes();
+                },this))
+        }
+
+        Tree.prototype._setInitialState = function(node,level,done){
+            if (!node.nodes) return;
+            level += 1;
+            done = done || [];
+
+            //生成一个对象 对象结构为
+//            var template = {
+//                level:"",
+//                text:"",
+//                nodeId:"",
+//                index:"",
+//                parentId:"",
+//            }
+            var parent = node;
+            $.each(node.nodes, $.proxy(function(index,node){
+                    var deferred = new $.Deferred();
+                    done.push(deferred.promise());
+
+                    node.level = level;
+
+                    node.index = index;
+
+                    node.nodeId = (parent && parent.nodeId) ?
+                        parent.nodeId + '.' + node.index :
+                        (level - 1) + '.' + node.index;
+
+                    node.text = node.text;
+
+                    node["parentId"] = parent.nodeId ;
+
+                    if (node.nodes) {
+                        if (node.nodes.length > 0) {
+                            this._setInitialState(node, level, done);
+                        }
+                        else {
+                            delete node.nodes;
+                        }
+                    }
+
+                    this._nodes[node.nodeId] = node;
+
+                    deferred.resolve();
+
+
+                },this)
+            )
+
+            return done;
+
+        }
+
+        Tree.prototype._sortNodes = function (){
+            return $.map(Object.keys(this._nodes).sort(function(a,b){
+                    if(a===b){return 0;}
+                    var a = a.split('.').map(function (level) { return parseInt(level); });
+                    var b = b.split('.').map(function (level) { return parseInt(level); });
+
+                    var c = Math.max(a.length, b.length);
+                    for (var i = 0; i < c; i++) {
+                        if (a[i] === undefined) return -1;
+                        if (b[i] === undefined) return +1;
+                        if (a[i] - b[i] > 0) return +1;
+                        if (a[i] - b[i] < 0) return -1;
+                    }
+                }), $.proxy(function (value, index) {
+                    return this._nodes[value];
+                }, this));
+        }
+
+
+
+
+        Tree.prototype._init = function(options){
+            this._tree = [];
+            this._load(options)
+                .then($.proxy(function(data){
+                    //load done
+                    return this._tree = $.extend(true, [], data);
+                },this), $.proxy(function(error){
+                    //load fail 加载数据失败的回调方法
+                },this))
+                .then($.proxy(function(treeData){
+                    //load done
+                    this._setNodes({nodes:treeData},0);
+                },this))
+                .then($.proxy(function(){
+
+                },this))
+        }
+
+
+
+
+
+       var tree = new Tree(options);
+
+
+
+
+        function getTree(){
+            var tree = [
+                {
+                    text: "基本分析",
+                    nodes: [
+                        {
+                            text: "1 原始数据归一化",
+                            nodes: [
+                                {
+                                    text: "1.1 数据归一化",
+                                    nodes: [
+                                        { text: "备注1"}
+                                    ]
+                                },
+                                {
+                                    text: "1.2 数据",
+                                    nodes: [
+                                        { text: "备注1"}
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            text: "2 样品相关性分析",
+                            nodes: [
+                                {
+                                    text: "2.1 聚类分析"
+                                }
+                            ]
+                        },
+                        {
+                            text: "3 差异基因分析",
+                            nodes: [
+                                {
+                                    text: "3.1 差异基因筛选"
+                                },
+                                {
+                                    text: "3.2 差异基因的散点图"
+                                },{
+                                    text: "3.3 差异基因的火山图"
+                                },{
+                                    text: "3.4 差异基因聚类图"
+                                }
+                            ]
+                        },
+                        {
+                            text: "4 GO和Pathway分析",
+                            nodes: [
+                                {
+                                    text: "4.1 GO功能富集分析"
+                                }, {
+                                    text: "4.2 GO_BP富集层次图"
+                                },{
+                                    text: "4.3 GO_MF富集层次图"
+                                },{
+                                    text: "4.4 GO_CC富集层次图"
+                                }, {
+                                    text: "4.5 GO二级条目图"
+                                },{
+                                    text: "4.6 GO显著富集分布图"
+                                },{
+                                    text: "4.7 Pathway通路富集分析"
+                                },{
+                                    text: "4.8 Pathway显著富集分布图"
+                                },{
+                                    text: "4.9 Disease富集分析物种:人"
+                                },{
+                                    text: "4.10 Disease显著富集分布图物种:人"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    text: "高级分析1",
+                    nodes: [
+                        {
+                            text: "1 lncRNA靶基因调控网络",
+                            nodes: [
+                                {
+                                    text: "1.1 数据归一化"
+                                },
+                                {
+                                    text: "1.2 数据"
+                                }
+                            ]
+                        },
+                        {
+                            text: "2 lncRNA靶基因调控网络",
+                            nodes: [
+                                {
+                                    text: "1.1 数据归一化"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    text: "高级分析2",
+                    nodes: [
+                        {
+                            text: "1 lncRNA靶基因调控网络",
+                            nodes: [
+                                {
+                                    text: "1.1 数据归一化"
+                                },
+                                {
+                                    text: "1.2 数据"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    text: "定制分析",
+                    nodes: [{
+                        text: "1 lncRNA靶基因调控网络",
+                        nodes: [
+                            {
+                                text: "1.1 数据归一化"
+                            },
+                            {
+                                text: "1.2 数据"
+                            }
+                        ]
+                    }]
+                }
+            ];
+            return tree;
+        }
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        'use strict'
+
+        //使用Promise对象实现异步操作
+//        function outWorld(v,ms){
+//            return new Promise(resolve =>{
+//                setTimeout(()=>{resolve(v)},ms);
+//            });
+//        }
+//
+//        outWorld("hello world",5000).then(val=>{
+//            console.log(val);
+//        });
+
+        //async await
+        //await后面通常是一个Promise对象
+//        function pre(ms){
+//            return new Promise(resolve=>{
+//                setTimeout(resolve,ms);
+//            })
+//        }
+//        async function outWorld(v,ms){
+//            await pre(ms);
+//            console.log(v);
+//        }
+//        outWorld("hello world",5000);
+
+
+        //await后面是一个promise对象。如果不是会被转成一个立即resolve的Promise对象
+//        function timeout(ms,va){
+//            return new Promise((resolve)=>{
+//                console.log(va);
+//                setTimeout(()=>{resolve(va);},ms);
+//            })
+//        }
+//
+//        async function asyncPrint(value ,ms){
+//            let a = await timeout(ms,value);
+//            console.log("a "+a);
+//            console.log(value,5555);
+//            return value;
+//        }
+//
+//        asyncPrint('hello world',5000).then((data)=>{
+//            console.log('我是async 的promise的回调函数'+data)
+//        })
+
+          //1.await 后面只能是一个Promise对象,即使不是,它会自动使用Promise.rsolve("...")
+          // 进行转化成为一个Promise对象
+//        async function f2(){
+//            return await Promise.resolve('出错了');
+//        }
+//        var v = f2();
+//        console.log(v);
+//        f2().then(data=>console.log(data));
+
+          //2.一个async中可能会有多个await(只要有一个await语句后面的Promise变为reject,那么整个async函数都会中断执行)
+//         async function f(){
+//            await new Promise(function (resolve,reject){
+//                throw new Error('出错了');
+//            });
+//         }
+//
+//        f().then(v=>console.log(v))
+//            .catch(e=>console.log(e))
+
+        //3.async 中的多个await是顺序执行的,只有前面的await执行完后，才执行下一个await(当然在没有reject的情况下)
+//        function n1(){
+//            return new Promise(resolve=>{
+//                setTimeout(()=>{
+//                resolve(1);
+//                console.log("n1");
+//            },5000);
+//
+//        });
+//        }
+//
+//        function n2(){
+//            return new Promise(resolve=>{
+//                setTimeout(()=>{
+//                resolve(1);
+//                console.log("n2");
+//            },1000);
+//
+//        });
+//        }
+//        function n3(){
+//            return new Promise(resolve=>{
+//                setTimeout(()=>{
+//                resolve(1);
+//                console.log("n3");
+//            },3000);
+//        });
+//        }
+//        async function nn (){
+//            try{
+//                let m1= await n1();
+//                let m2= await n2();
+//                let m3= await n3();
+//                return m1+m2+m3;
+//            }catch(e){
+//                console.error(e);
+//            }
+//        }
+//        nn().then((n)=>{console.log(n);});
+
+
+        //4.每一个Promise最好给他一个状态 使用Promise.all函数同时并发执行三个函数
+//        function n1(){
+//            return new Promise(resolve=>{
+//                setTimeout(()=>{
+//                    resolve(1);
+//                    console.log("n1");
+//                },5000);
+//            });
+//        }
+//        function n2(){
+//            return new Promise(resolve=>{
+//                setTimeout(()=>{
+//                    resolve(1);
+//                    console.log("n2");
+//                },1000);
+//            });
+//        }
+//        function n3(){
+//            return new Promise(resolve=>{
+//                setTimeout(()=>{
+//                    resolve(1);
+//                    console.log("n3");
+//                },2000);
+//            });
+//        }
+//
+//        async function nn(){
+//            try {
+//                let [m1,m2,m3] = await Promise.all([n1(),n2(),n3()]);
+//                return m1+m2+m3;
+//            }catch(e){
+//                console.error(e);
+//            }
+//        }
+//
+//        nn().then((n)=>{console.log(n);});
+
+        //4.await命令只能在async函数中执行 在普通函数中执行会出错
+
+        //错误写法
+//        async function dbFunc(db){
+//            let docs = [{},{},{}];
+//
+//            docs.forEach(function(doc){
+//                await db.post(doc);
+//            });
+//        }
+
+
+//        async function dbFunc(db){
+//            let docs = [{},{},{}];
+//            //继发执行
+//            for(let doc of docs){
+//                await db.post(doc);
+//            }
+//        }
+//
+//        //并发执行
+//        async function dbFuc(db){
+//            let docs = [{},{},{}];
+//            let promises = docs.map((doc)=>db.post(doc));
+//            let results = await Promise.all(promises);
+//            console.log(results);
+//
+//        }
+
+    </script>
+</body>
+</html>

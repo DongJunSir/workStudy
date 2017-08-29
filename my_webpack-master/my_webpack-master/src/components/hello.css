@@ -1,0 +1,8 @@
+h1{
+    color: red;
+}
+img{
+    height: 320px;
+    width: 320px;
+    background-image: url("../images/1_2.jpg");
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .nodeBar{
+            width:500px;
+            height:500px;
+            border:1px solid #ccc;
+        }
+        .nodeBar_side{
+            width:5px;
+            height:100%;
+            background-color: #F3F4F3;
+            position: relative;
+        }
+        .drag_arrow{
+            background-color: #327BB6;
+            width:5px;
+            height:15%;
+            top:50%;
+            font-size: 5px;
+            line-height:75px;
+            Color:#FFF;
+            position:absolute;
+            text-align: center;
+            transform: translate(0%,-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="nodeBar" >
+        <div class="nodeBar_side">
+            <div class="drag_arrow">
+                ◀
+            </div>
+        </div>
+    </div>
+</body>
+</html>

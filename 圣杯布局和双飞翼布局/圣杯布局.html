@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            overflow:hidden;
+            padding:0 40px;
+        }
+        #main{
+            width:100%;
+            background-color: skyblue;
+            float: left;
+            height:40px;
+        }
+        #left{
+            background-color: pink;
+            width:40px;
+            height:40px;
+            float: left;
+            margin-left:-100%;
+        }
+        #right{
+            background-color: yellowgreen;
+            width:40px;
+            height:40px;
+            float: left;
+            margin-left:-40px;
+        }
+        .left{ position: relative; left: -40px;}
+        .right{position: relative;right: -40px;}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div id="main">
+        我是程序员我是程序员我是程序员我是程序员我是程序员我是程序员我是程序员我是程序员我是程序员我是程序员我是程序员我是程序员我是程序员
+        我是程序员我是程序员我是程序员我是程序员我是程序员我是程序员我是程序员我是程序员我是程序员我是程序员我是程序员我是程序员我是程序员
+    </div>
+    <div id="left" class="left"></div>
+    <div id="right" class="right"></div>
+</div>
+</body>
+</html>

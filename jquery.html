@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+</head>
+<body>
+    <script>
+
+
+        $(function(){
+//
+//            var arr = ["true1","false1","true2","false2","true3","false3"];
+//            var modified = $.grep(arr,function(str){
+//                if(typeof str === "string"){
+//                    return str.match(new RegExp("true","g"));
+//                }
+//            });
+//            console.log(modified);
+
+            var arr ='0.0.0.0';
+            var a = arr.split('.').map(function (level) {
+                console.log(level);
+                return parseInt(level);
+            });
+            console.log(a);
+
+        });
+    </script>
+</body>
+</html>
