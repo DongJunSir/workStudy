@@ -10,7 +10,7 @@ rout.get("/",function(req,res){
 });
 
 rout.get("/edit",function(req,res){
-    return res.redirect("/show.html");
+    return res.redirect("/index.html");
 });
 
 rout.get("/img",function(req,res){
