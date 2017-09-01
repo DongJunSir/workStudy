@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../node_modules/vue/dist/vue.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            line-height: 30px;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <aaa></aaa>
+    </div>
+
+    <template id="temA">
+        <div>
+            <h3>我是:{{msg}},子集显示==>{{msg2.text}}</h3>
+            <bbb :m1="msg1" :m2="msg2"></bbb>
+        </div>
+    </template>
+
+    <script>
+        var vm = new Vue({
+            el:'#box',
+            components:{
+                'aaa':{
+                    data:function(){
+                        return{
+                            msg:"父组件",
+                            msg1:"父级的共享数据1",
+                            msg2:{
+                                text:"父级的共享数据2",
+                                style:{
+                                    height:"100px",
+                                    background:"orange"
+                                }
+                            }
+                        }
+                    },
+                    methods:{
+                        test:function(){
+                            console.log("父组件的方法已调用");
+                        }
+                    },
+                    template:'#temA',/*当前组件里调用子组件*/
+                    components:{
+                        'bbb':{
+                            props:["m1","m2"],   /* 需要使用的数据，使用数组参入 ，和函数的形参很像,然后在调用的地方使用 v-bind传入 */
+                            template:"<div><h3 @click='showMsg'>我是bbb组件，我使用的父级数据 ==>{{m1}},{{m2.text}} </h3></div>",
+                            methods:{
+                                showMsg:function(){
+                                    this.m2.text = "值被子组件修改了";
+                                    this.$parent.test();
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        })
+
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>

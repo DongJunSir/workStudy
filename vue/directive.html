@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../node_modules/vue/dist/vue.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            line-height: 30px;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!--自定义指令-->
+    <div id="box">
+        <p v-test>测试:红色</p>
+        <p v-test-blue>测试:蓝色</p>
+        <p v-test-orange="{'color':'orange'}">测试:橘色</p>
+    </div>
+
+    <script>
+        //自定义指令
+        Vue.directive("test",function(el){
+            el.style.color = 'red';
+        })
+
+        Vue.directive("testBlue",function(el){
+            el.style.color = "blue";
+        })
+
+        Vue.directive("testOrange",function(el,args){
+            el.style.color = args.value.color;
+        })
+        var vm = new Vue({
+            el:"#box",
+            data:{},
+            directives:{
+                "test-orange":function(el,args){
+                    el.style.color = args.value.color;
+                }
+            }
+        })
+    </script>
+
+</body>
+</html>

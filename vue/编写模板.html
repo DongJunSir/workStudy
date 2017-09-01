@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../node_modules/vue/dist/vue.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            line-height: 30px;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <who-h></who-h>
+    </div>
+
+    <template id="temp01">
+        <div>
+            <h1 @click="change">{{msg}}</h1>
+            <p>模板示例,示例</p>
+        </div>
+    </template>
+
+    <script>
+        var item = Vue.extend({
+            data:function(){
+                return {
+                    msg:"哈哈"
+                }
+            },
+            template:"#temp01",
+            methods:{
+                change:function(){
+                    this.msg="呵呵"
+                }
+            }
+        })
+
+        var vm = new Vue({
+            el:"#box",
+            data:{},
+            components:{
+                "who-h":item
+            }
+        })
+    </script>
+
+</body>
+</html>
