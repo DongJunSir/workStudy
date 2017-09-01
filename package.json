@@ -9,6 +9,8 @@
   "author": "jun",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.4"
+    "assert": "^1.4.1",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31"
   }
 }

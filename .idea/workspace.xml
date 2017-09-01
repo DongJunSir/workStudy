@@ -1,10 +1,280 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70c14d94-ee2c-4cb0-9f46-1922c7e44594" name="Default" comment="" />
+    <list default="true" id="70c14d94-ee2c-4cb0-9f46-1922c7e44594" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactDemo/app/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactDemo/static/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reactDemo/static/js/app.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/.bin/mime" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/.bin/mime.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/accepts/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/accepts/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/accepts/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/accepts/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/accepts/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/array-flatten/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/array-flatten/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/array-flatten/array-flatten.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/array-flatten/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/content-disposition/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/content-disposition/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/content-disposition/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/content-disposition/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/content-disposition/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/content-type/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/content-type/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/content-type/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/content-type/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/content-type/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/cookie-signature/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/cookie-signature/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/cookie-signature/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/cookie-signature/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/cookie-signature/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/cookie/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/cookie/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/cookie/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/cookie/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/cookie/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/debug/.coveralls.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/debug/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/debug/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/debug/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/debug/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/debug/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/debug/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/debug/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/debug/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/debug/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/debug/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/debug/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/debug/src/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/debug/src/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/debug/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/debug/src/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/depd/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/depd/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/depd/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/depd/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/depd/lib/browser/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/depd/lib/compat/buffer-concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/depd/lib/compat/callsite-tostring.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/depd/lib/compat/event-listener-count.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/depd/lib/compat/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/depd/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/destroy/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/destroy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/destroy/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/destroy/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ee-first/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ee-first/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ee-first/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ee-first/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/encodeurl/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/encodeurl/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/encodeurl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/encodeurl/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/encodeurl/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/escape-html/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/escape-html/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/escape-html/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/escape-html/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/etag/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/etag/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/etag/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/etag/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/etag/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/express/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/express/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/express/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/express/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/express/lib/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/express/lib/express.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/express/lib/middleware/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/express/lib/middleware/query.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/express/lib/request.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/express/lib/response.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/express/lib/router/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/express/lib/router/layer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/express/lib/router/route.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/express/lib/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/express/lib/view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/express/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/finalhandler/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/finalhandler/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/finalhandler/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/finalhandler/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/finalhandler/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/forwarded/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/forwarded/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/forwarded/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/forwarded/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/forwarded/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/fresh/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/fresh/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/fresh/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/fresh/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/fresh/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/http-errors/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/http-errors/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/http-errors/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/http-errors/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/http-errors/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/inherits/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/inherits/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/inherits/inherits.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/inherits/inherits_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/inherits/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ipaddr.js/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ipaddr.js/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ipaddr.js/Cakefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ipaddr.js/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ipaddr.js/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ipaddr.js/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ipaddr.js/ipaddr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ipaddr.js/lib/ipaddr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ipaddr.js/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ipaddr.js/src/ipaddr.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ipaddr.js/test/ipaddr.test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/media-typer/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/media-typer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/media-typer/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/media-typer/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/media-typer/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/merge-descriptors/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/merge-descriptors/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/merge-descriptors/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/merge-descriptors/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/merge-descriptors/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/methods/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/methods/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/methods/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/methods/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/methods/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime-db/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime-db/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime-db/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime-db/db.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime-db/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime-db/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime-types/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime-types/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime-types/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime-types/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime-types/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime/build/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime/build/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime/cli.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime/mime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/mime/types.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ms/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ms/license.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ms/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/ms/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/negotiator/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/negotiator/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/negotiator/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/negotiator/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/negotiator/lib/charset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/negotiator/lib/encoding.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/negotiator/lib/language.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/negotiator/lib/mediaType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/negotiator/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/on-finished/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/on-finished/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/on-finished/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/on-finished/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/on-finished/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/parseurl/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/parseurl/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/parseurl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/parseurl/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/parseurl/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/path-to-regexp/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/path-to-regexp/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/path-to-regexp/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/path-to-regexp/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/path-to-regexp/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/proxy-addr/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/proxy-addr/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/proxy-addr/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/proxy-addr/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/proxy-addr/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/.eslintignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/.jscs.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/dist/qs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/lib/formats.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/lib/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/lib/stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/lib/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/test/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/test/parse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/test/stringify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/qs/test/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/range-parser/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/range-parser/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/range-parser/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/range-parser/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/range-parser/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/send/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/send/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/send/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/send/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/send/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/serve-static/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/serve-static/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/serve-static/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/serve-static/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/serve-static/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/setprototypeof/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/setprototypeof/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/setprototypeof/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/setprototypeof/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/statuses/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/statuses/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/statuses/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/statuses/codes.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/statuses/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/statuses/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/type-is/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/type-is/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/type-is/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/type-is/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/type-is/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/unpipe/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/unpipe/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/unpipe/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/unpipe/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/unpipe/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/utils-merge/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/utils-merge/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/utils-merge/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/utils-merge/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/utils-merge/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/vary/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/vary/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/vary/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/vary/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node/node04express/node_modules/vary/package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="myApp_tabs/" />
+    <ignored path="react-demos/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +287,25 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="自定义写插件.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/自定义写插件.html">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reactDemo/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+            <state relative-caret-position="275">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reactDemo/webpack/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#53#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,8 +315,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -43,16 +326,12 @@
       <find>arguments</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/拖动实例.html" />
-        <option value="$PROJECT_DIR$/拖动改变大小2.html" />
-        <option value="$PROJECT_DIR$/拖动改变div大小.html" />
-        <option value="$PROJECT_DIR$/拖动侧边栏.html" />
-        <option value="$PROJECT_DIR$/未知高度垂直居中.html" />
-        <option value="$PROJECT_DIR$/未知高度垂直居中2.html" />
-        <option value="$PROJECT_DIR$/位置高度div居中显示.html" />
         <option value="$PROJECT_DIR$/throttle和debounce示例/throttle和debounce.html" />
         <option value="$PROJECT_DIR$/flex布局/居中对其.html" />
         <option value="$PROJECT_DIR$/flex布局/居中对齐.html" />
@@ -74,6 +353,36 @@
         <option value="$PROJECT_DIR$/Promise/2.html" />
         <option value="$PROJECT_DIR$/flex布局/felx布局.html" />
         <option value="$PROJECT_DIR$/flex布局/demo.css" />
+        <option value="$PROJECT_DIR$/canvas/缩放.html" />
+        <option value="$PROJECT_DIR$/canvas/水印.html" />
+        <option value="$PROJECT_DIR$/HTML5/FileReader.html" />
+        <option value="$PROJECT_DIR$/canvas/放大镜.html" />
+        <option value="$PROJECT_DIR$/canvas/滤镜.html" />
+        <option value="$PROJECT_DIR$/canvas/马赛克效果.html" />
+        <option value="$PROJECT_DIR$/node/node04express/demo01.js" />
+        <option value="$PROJECT_DIR$/node/node01/fs_file/a.txt" />
+        <option value="$PROJECT_DIR$/node/node02-fs/test.js" />
+        <option value="$PROJECT_DIR$/node/node03/test.js" />
+        <option value="$PROJECT_DIR$/node/node03/files/index.html" />
+        <option value="$PROJECT_DIR$/node/node03/router.js" />
+        <option value="$PROJECT_DIR$/node/node03异步IO/main.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/node/node06mongodb/demo01.js" />
+        <option value="$PROJECT_DIR$/node/node06mongodb/demo02.js" />
+        <option value="$PROJECT_DIR$/node/node06mongodb/dbhandler.js" />
+        <option value="$PROJECT_DIR$/node/node07/demo.js" />
+        <option value="$PROJECT_DIR$/vue/driective.html" />
+        <option value="$PROJECT_DIR$/vue/v-html.html" />
+        <option value="$PROJECT_DIR$/vue/directive.html" />
+        <option value="$PROJECT_DIR$/vue/组件.html" />
+        <option value="$PROJECT_DIR$/vue/编写模板.html" />
+        <option value="$PROJECT_DIR$/vue/组件嵌套.html" />
+        <option value="$PROJECT_DIR$/vue/组件通信.html" />
+        <option value="$PROJECT_DIR$/vue/兄弟组件通信.html" />
+        <option value="$PROJECT_DIR$/reactDemo/static/js/app.js" />
+        <option value="$PROJECT_DIR$/reactDemo/static/index.html" />
+        <option value="$PROJECT_DIR$/reactDemo/app/main.js" />
+        <option value="$PROJECT_DIR$/reactDemo/webpack/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -86,14 +395,19 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/myApp_tabs/node_modules" />
     <handled-path value="$PROJECT_DIR$/myApp_tabs/platforms/android/cordova/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node/node04express/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node/node03/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node/node05express/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/reactDemo/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -110,6 +424,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -132,17 +447,88 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
+              <option name="myItemId" value="reactDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workStudy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
+              <option name="myItemId" value="reactDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webpack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workStudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reactDemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -150,8 +536,7 @@
     <property name="options.lastSelected" value="configurable.group.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -161,12 +546,19 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="editor.config.accepted" value="true" />
+    <property name="last_opened_file_path" value="D:/Program Files/Git/cmd/git.exe" />
+    <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\workStudy\node\node03" />
+      <recent name="C:\Users\Administrator\Desktop\workStudy\resources" />
       <recent name="C:\Users\Administrator\Desktop\workStudy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\workStudy\node\node03" />
+      <recent name="C:\Users\Administrator\Desktop\workStudy\node\node04express" />
+      <recent name="C:\Users\Administrator\Desktop\workStudy\node" />
       <recent name="C:\Users\Administrator\Desktop\workStudy\位置高度div居中显示" />
       <recent name="C:\Users\Administrator\Desktop\workStudy\拖动改变div大小" />
     </key>
@@ -264,12 +656,32 @@
       <workItem from="1502688742391" duration="1373000" />
       <workItem from="1502693608715" duration="861000" />
       <workItem from="1502761825030" duration="21036000" />
-      <workItem from="1503885091157" duration="10595000" />
+      <workItem from="1503885091157" duration="14884000" />
+      <workItem from="1503989028241" duration="4022000" />
+      <workItem from="1504053811684" duration="15212000" />
+      <workItem from="1504151036764" duration="8371000" />
+      <workItem from="1504165048884" duration="385000" />
+      <workItem from="1504165443858" duration="16411000" />
     </task>
+    <task id="LOCAL-00001" summary="'add folder node03'">
+      <created>1504074867391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1504074867391</updated>
+    </task>
+    <task id="LOCAL-00002" summary="'add folder node03'">
+      <created>1504256593116</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1504256593116</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71327000" />
+    <option name="totallyTimeSpent" value="120017000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,15 +693,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12605485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837406" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32135418" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -305,126 +718,61 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="'add folder node03'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'add folder node03'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/拖动改变div大小/拖动改变大小2.html">
+    <entry file="file://$PROJECT_DIR$/myApp_tabs/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="53" column="54" lean-forward="true" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery-1.11.2.js" />
-    <entry file="file://$PROJECT_DIR$/拖动改变div大小/拖动实例.html">
+    <entry file="file://$PROJECT_DIR$/myApp_tabs/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        <state relative-caret-position="-1442">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/拖动改变div大小/拖动改变大小2.html">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="53" column="54" lean-forward="true" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/拖动改变div大小/拖动侧边栏.html">
+    <entry file="file://$PROJECT_DIR$/自定义写插件.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="9" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/位置高度div居中显示.html" />
-    <entry file="file://$PROJECT_DIR$/拖动改变div大小/拖动改变div大小.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/圣杯布局和双飞翼布局/练习.html" />
-    <entry file="file://$PROJECT_DIR$/位置高度div居中显示/未知高度垂直居中.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/throttle和debounce示例/throttle和debounce.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/位置高度div居中显示/未知高度垂直居中2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/圣杯布局和双飞翼布局/中间固定，两边自适应.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/圣杯布局和双飞翼布局/圣杯布局.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/圣杯布局和双飞翼布局/圣杯布局前瞻.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/圣杯布局和双飞翼布局/负margin(圣杯布局).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/圣杯布局和双飞翼布局/圣杯布局0705.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="30" column="80" lean-forward="false" selection-start-line="30" selection-start-column="80" selection-end-line="30" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/圣杯布局和双飞翼布局/浮动.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_webpack-master/my_webpack-master/src/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_webpack-master/my_webpack-master/src/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="283">
+          <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -435,234 +783,291 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_webpack-master/my_webpack-master/src/components/Life.js">
+    <entry file="file://$PROJECT_DIR$/my_webpack-master/my_webpack-master/src/template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3141">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_webpack-master/my_webpack-master/src/components/Hello.scss">
+    <entry file="file://$PROJECT_DIR$/canvas/缩放.html" />
+    <entry file="file://$PROJECT_DIR$/canvas/水印.html" />
+    <entry file="file://$PROJECT_DIR$/canvas/放大镜.html" />
+    <entry file="file://$PROJECT_DIR$/resources/433608.jpg" />
+    <entry file="file://$PROJECT_DIR$/canvas/滤镜.html" />
+    <entry file="file://$PROJECT_DIR$/canvas/马赛克效果.html" />
+    <entry file="file://$PROJECT_DIR$/HTML5/FileReader.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_webpack-master/my_webpack-master/src/components/Hello.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_webpack-master/my_webpack-master/src/components/_base.scss">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_webpack-master/my_webpack-master/src/components/hello.css">
+    <entry file="file://$PROJECT_DIR$/node/node05express/files/kunling.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/node05express/files/show.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_webpack-master/my_webpack-master/REMADE.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_webpack-master/my_webpack-master/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-demos/demo02/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-demos/demo01/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-demos/demo03/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-demos/demo04/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-demos/demo05/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-demos/demo06/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-demos/demo07/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-demos/demo09/index.html">
+    <entry file="file://$PROJECT_DIR$/node/node01/fs_file/a.txt" />
+    <entry file="file://$PROJECT_DIR$/node/node02-fs/a.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-demos/demo10/index.html">
+    <entry file="file://$PROJECT_DIR$/node/node03异步IO/b.txt" />
+    <entry file="file://$PROJECT_DIR$/react-demos/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-demos/demo08/index.html">
+    <entry file="file://$PROJECT_DIR$/node/node05express/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="350">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jquery/dist/jquery.js">
+    <entry file="file://$PROJECT_DIR$/node/node03/files/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap/bootstrap.min.js">
+    <entry file="file://$PROJECT_DIR$/node/node03/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/node03/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/node05express/demo02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/node04异步IO/a.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp_tabs/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/node/node04异步IO/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="250">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.html">
+    <entry file="file://$PROJECT_DIR$/node/node04异步IO/write.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Promise/2.html">
+    <entry file="file://$PROJECT_DIR$/node/node06mongodb/demo01.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="162" column="0" lean-forward="true" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding>
-            <marker date="1503896619015" expanded="true" signature="180:430" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Promise/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex布局/居中对齐.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex布局/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex布局/felx布局.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-app/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp_tabs/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myApp_tabs/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1442">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="575">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="400">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/node06mongodb/dbhandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1061">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/node06mongodb/demo02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/node05express/demo01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/node01/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/node01/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/node07/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/v-html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/自定义写插件.html">
+    <entry file="file://$PROJECT_DIR$/vue/directive.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="15" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/编写模板.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/组件嵌套.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/兄弟组件通信.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/组件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/组件通信.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/node02-fs/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="37" column="3" lean-forward="true" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/node03/demo3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reactDemo/static/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reactDemo/app/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reactDemo/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reactDemo/webpack/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#53#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
