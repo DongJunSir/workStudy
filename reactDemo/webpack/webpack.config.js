@@ -10,5 +10,26 @@ module.exports = {
     output:{
         path:path.join(__dirname,"../static/js/"),
         filename:"[name].js"        //这里[name]就是表示对应entry对象的name,然后生成的后戳是.js
+    },
+    module:{
+        loaders:[
+            {
+                test:/\.(js|jsx)$/,
+                loader:"babel-loader",
+                exclude:/node_modules/,
+                query:{
+                    presets:["react","es2015"]
+                }
+            },
+            {
+                test:/\.css$/, //配置.css后戳的解析
+                loader:"style-loader!css-loader"
+            },
+            {
+                test:/\.(png|jpg)$/, //配置静态文件解析
+                loader:"url-loader?limit=8192"
+            }
+
+        ]
     }
 }
