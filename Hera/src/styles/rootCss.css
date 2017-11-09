@@ -1,0 +1,43 @@
+.root-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    min-height: 40rem;
+}
+
+.root-header {
+    height: 3rem;
+    background-color: #00B83F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.root-header a{
+    flex:1;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.root-header a:hover{
+    color: peachpuff;
+    font-size: 1.3rem;
+}
+
+.root-content{
+    flex: 1;
+    background-color: #00b3ee;
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+}
+
+.root-footer {
+    height:5rem;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

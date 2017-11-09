@@ -1,0 +1,26 @@
+$primary-color: #0da6f5;
+@import '../../node_modules/loaders.css/src/animations/pacman.scss';
+
+.loader-hidden {
+  display: none;
+}
+.loader-active {
+  margin: auto;
+  display: block;
+  position: fixed;
+  left: 45%;
+  top:45%;
+}
+
+.loadingComponent{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(200,200,200,0.4);
+}
+
+

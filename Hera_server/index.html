@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="pay()">支付</button>
+<script src="./node_modules/pingpp-js/dist/pingpp.js"></script>
+<script>
+
+    function pay(){
+        var charge={"id":"ch_LCWzfDqrLCyH5OOS08bbX1eT","object":"charge","created":1473582896,"livemode":false,"paid":false,"refunded":false,"app":"app_1Gqj58ynP0mHeX1q","channel":"upacp_pc","order_no":"123456789","client_ip":"127.0.0.1","amount":30000,"amount_settle":30000,"currency":"cny","subject":"支付demo","body":"请求银联网页支付","extra":{"result_url":"http://127.0.0.1"},"time_paid":null,"time_expire":1473669296,"time_settle":null,"transaction_no":null,"refunds":{"object":"list","url":"/v1/charges/ch_LCWzfDqrLCyH5OOS08bbX1eT/refunds","has_more":false,"data":[]},"amount_refunded":0,"failure_code":null,"failure_msg":null,"metadata":{},"credential":{"object":"credential","upacp_pc":{"accessType":"0","backUrl":"https://api.pingxx.com/notify/charges/ch_LCWzfDqrLCyH5OOS08bbX1eT","bizType":"000000","certId":"zTq1GKmbLqX1fXH084SC8OKG","channelType":"07","currencyCode":"156","customerIp":"127.0.0.1","encoding":"UTF-8","frontUrl":"http://127.0.0.1","merId":"711309898829865","orderDesc":"支付demo","orderId":"123456789","payTimeout":"20160912163456","reqReserved":"ch_LCWzfDqrLCyH5OOS08bbX1eT","signMethod":"01","txnAmt":"30000","txnSubType":"01","txnTime":"20160911163456","txnType":"01","version":"5.0.0","signature":"eTkwT2U5R1dqUDA4VE9LZWZQVGU5cXY5"}},"description":null};
+        pingpp.createPayment(charge, function(result, err){
+            console.log(result);
+            console.log(err.msg);
+            console.log(err.extra);
+            if (result == "success") {
+                console.log("付款成功")
+                // 只有微信公众账号 wx_pub 支付成功的结果会在这里返回，其他的支付结果都会跳转到 extra 中对应的 URL。
+            } else if (result == "fail") {
+                console.log("付款失败")
+                // charge 不正确或者微信公众账号支付失败时会在此处返回
+            } else if (result == "cancel") {
+                console.log("付款失败")
+                // 微信公众账号支付取消支付
+            }
+        });
+    }
+</script>
+</body>
+</html>

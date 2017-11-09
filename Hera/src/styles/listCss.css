@@ -1,0 +1,31 @@
+.list-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+}
+
+.list-sideMenu{
+    width: 8rem;
+    background-color: pink;
+}
+
+.list-sideMenu div{
+    text-align: center;
+    background-color: pink;
+    padding: 1rem;
+}
+
+.list-content{
+    flex: 1;
+    background-color: palegreen;
+}
+
+
+.list-current{
+    color:blue;
+}
+
+/*div{*/
+    /*position:absolute;*/
+/*}*/
