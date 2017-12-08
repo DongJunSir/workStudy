@@ -6,12 +6,11 @@ export function getMovieList(listType) {
     return new Promise(function (resolve, reject) {
         $.get(`${config.SERVER_PATH}/getMovieList?listType=${listType}`, function (data) {
             if (data) {
-                resolve(JSON.parse(data));
+                resolve(data);
             }
             else {
                 reject(data);
             }
-
         })
     });
 

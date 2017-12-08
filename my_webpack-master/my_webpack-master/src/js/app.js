@@ -6,7 +6,7 @@ import Life from '../components/Life.js'
 
 ReactDOM.render(
     <div>
-        <Life/>
+        <Hello/>
     </div>,
     document.getElementById('app')
 )

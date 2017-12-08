@@ -1,6 +1,6 @@
 'use strict;'
 import React from "react";
-import * as fetch from '../fetchs/homeFetch';
+import * as fetch from '../fetchs/Homefetch';
 import { Link } from 'react-router';
 
 import MovieListItem from "./MovieListItem.jsx";

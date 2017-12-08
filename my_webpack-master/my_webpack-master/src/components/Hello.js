@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 
 import './hello.css';
-import './Hello.scss';
 
 let style={
     backgroundColor:'blue'
